@@ -1,0 +1,14 @@
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\bin\Debug\net9.0\ExamSolution.exe
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\bin\Debug\net9.0\ExamSolution.deps.json
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\bin\Debug\net9.0\ExamSolution.runtimeconfig.json
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\bin\Debug\net9.0\ExamSolution.dll
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\bin\Debug\net9.0\ExamSolution.pdb
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.AssemblyInfoInputs.cache
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.AssemblyInfo.cs
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.csproj.CoreCompileInputs.cache
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.dll
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\refint\ExamSolution.dll
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.pdb
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ExamSolution.genruntimeconfig.cache
+C:\Users\Cyber_User\RiderProjects\ExamSolution\ExamSolution\obj\Debug\net9.0\ref\ExamSolution.dll
