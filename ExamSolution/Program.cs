@@ -27,7 +27,7 @@ class Program
 
             // update the maxSum and maxLength
             maxLength = Math.Max(length, maxLength);
-            if ( maxLength == length)
+            if (maxLength == length)
                 maxSum = Math.Max(sum, maxSum);
         }
 
