@@ -87,15 +87,16 @@ public class Kita
         for (int i = 1; i < people.Length; i++)
         {
             // check if the person is a student
-            if (people[i] is Student)
+            Student student = people[i] as Student;
+            if (student != null)
             {
                 // get the average of the student
-                double avg = ((Student)people[i]).GetAverage();
+                double avg = student.GetAverage();
                 // update the maxAvg and name
                 if (avg > maxAvg)
                 {
                     maxAvg = avg;
-                    name = people[i].GetName();
+                    name = student.GetName();
                 }
             }
         }
@@ -116,14 +117,15 @@ public class Kita
         for (int i = 1; i < old.people.Length; i++)
         {
             // check if the person is a student
-            if (old.people[i] is Student)
+            Student student = old.people[i] as Student;
+            if (student != null)
             {
                 // get the average of the student
-                double avg = ((Student)old.people[i]).GetAverage();
+                double avg = studnet.GetAverage();
                 // add the student to the new kita if the average is greater than 80
                 if (avg > 90)
                 {
-                    newKita.AddStudent((Student)old.people[i]);
+                    newKita.AddStudent(sudent);
                 }
             }
         }
