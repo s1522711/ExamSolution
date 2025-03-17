@@ -4,6 +4,10 @@ public class Kita
 {
     private Person[] people;
 
+    /*
+     * the constuctor, gets the teacher object and the number of students in the class
+     * input: the teacher object and int number of students in the class
+     */
     public Kita(Teacher teacher, int studentsNum)
     {
         if teacher == null return;
@@ -13,6 +17,11 @@ public class Kita
         people[0] = teacher;
     }
 
+    /*
+     * adds a new student to the classroom
+     * input: the student's object
+     * output: true if sucessful
+     */
     public bool AddStudent(Student student)
     {
         if student = null return;
@@ -29,6 +38,11 @@ public class Kita
         return false;
     }
 
+    /*
+     * checks if a student with a specific name is in the class
+     * input: the name of the student
+     * output: true if found
+     */
     public bool IsInKita(string name)
     {
         for (int i = 0; i < people.Length; i++)
@@ -42,6 +56,11 @@ public class Kita
         return false;
     }
 
+    /*
+     * removes a student with a specific name
+     * input: the student name
+     * output: true if sucsessful
+     */
     public bool RemoveStudent(string name)
     {
         for (int i = 0; i < people.Length; i++)
@@ -57,6 +76,10 @@ public class Kita
         return false;
     }
 
+    /*
+     * Returns the name of the student with the highest grade average
+     * Output: a string, yes
+     */
     public string GetHighestAvgStudent()
     {
         double maxAvg = 0;
@@ -79,6 +102,11 @@ public class Kita
         return name;
     }
 
+    /*
+     * creates a new class that only contains students with an average grade score above 80
+     * input: the original class
+     * output: the new classroom with the good students
+     */
     public static Kita CreateGoodOnlyStudentsKita(Kita old)
     {
         // cant be null
