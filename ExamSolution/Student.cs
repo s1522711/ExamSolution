@@ -48,11 +48,10 @@ public class Student : Person
             // add bonus points based on the unit
             switch (gradesAndUnits[i, 1])
             {
+                case 5:
+                    sum += 10;
                 case 4:
                     sum += 10;
-                    break;
-                case 5:
-                    sum += 20;
                     break;
             }
         }
