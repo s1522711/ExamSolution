@@ -125,7 +125,7 @@ public class Kita
                 // add the student to the new kita if the average is greater than 80
                 if (avg > 90)
                 {
-                    newKita.AddStudent(sudent);
+                    newKita.AddStudent(student);
                 }
             }
         }
