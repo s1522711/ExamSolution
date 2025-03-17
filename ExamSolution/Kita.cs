@@ -6,20 +6,23 @@ public class Kita
 
     public Kita(Teacher teacher, int studentsNum)
     {
+        if teacher == null return;
+        if studentsNum < 1 return;
         // create an array to store the teacher and students
         people = new Person[studentsNum + 1];
-        people[0] = new Teacher(teacher);
+        people[0] = teacher;
     }
 
     public bool AddStudent(Student student)
     {
+        if student = null return;
         // find the first empty slot in the array
         for (int i = 0; i < people.Length; i++)
         {
             if (people[i] == null)
             {
                 // add the student to the array
-                people[i] = new Student(student);
+                people[i] = student;
                 return true;
             }
         }
