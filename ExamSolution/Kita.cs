@@ -78,6 +78,8 @@ public class Kita
 
     public static Kita CreateGoodOnlyStudentsKita(Kita old)
     {
+        // cant be null
+        if (old == null) return;
         // create a new kita with the same teacher and only good students
         Kita newKita = new Kita((Teacher)old.people[0], old.people.Length - 1);
         for (int i = 1; i < old.people.Length; i++)
